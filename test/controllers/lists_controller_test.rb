@@ -20,4 +20,8 @@ class ListsControllerTest < ActionController::TestCase
 
     assert_redirected_to root_path
   end
+
+  test "should fail" do
+    assert_equal "foo", "bar"
+  end
 end
