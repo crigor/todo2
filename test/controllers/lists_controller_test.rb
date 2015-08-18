@@ -28,4 +28,8 @@ class ListsControllerTest < ActionController::TestCase
   test "should succeed" do
     assert_equal "bar", "bar"
   end
+
+  test "should succeed too" do
+    assert_equal "baz", "baz"
+  end
 end
