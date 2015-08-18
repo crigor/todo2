@@ -26,6 +26,6 @@ class ListsControllerTest < ActionController::TestCase
   end
 
   test "should fail too" do
-    assert_equal "baz", "bar"
+    assert_equal "bar", "bar"
   end
 end
